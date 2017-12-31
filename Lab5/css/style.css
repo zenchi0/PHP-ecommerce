@@ -1,0 +1,111 @@
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: medium;
+    line-height: 1.5em;
+    margin: 0;
+    border: 1px solid transparent;
+    background-color: #1D1F21;
+}
+h1 {
+    font-size: 1.8em;
+    color: #5538B4;
+}
+h1.title {
+    text-align: center;
+}
+.intro {
+    text-align: center;
+}
+nav {
+    float: left;
+    vertical-align: middle;
+    margin: 0;
+    width: 100%;
+    min-height: 50px;
+    background-color: #00acff ;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0 0 0 10px;
+    margin: 0;
+}
+nav ul li {
+    display: inline;
+    float: left;
+    padding: 13px 10px;
+    font-weight: bold;
+}
+nav ul li.selected {
+    background-color: #002dff;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #ffd200 ;
+    font-weight: bold;
+}
+nav ul li.selected a {
+    color: #ffd71a;
+    text-shadow: 1px 1px 1px #DDD;
+}
+nav ul li.username {
+    color: #ffd71a;
+    float: right;
+}
+nav ul li.settings {
+    color: #cda900;
+    float: right;
+}
+nav ul li.settings a,img {
+    margin: 0;
+    padding: 0;
+    float: center;
+    height:128px;
+    width:128px;
+}
+section {
+    background-color: #FFF;
+    padding: 10px;
+}
+section.twoCol {
+    display: table-cell;
+    width: 50%;
+    margin: 0px;
+}
+blockquote {
+    font-style: italic;
+}
+figcaption {
+    text-align: center;
+    font-style: italic;
+}
+.tableContainer {
+    clear: both;
+    display: table;
+    border-spacing: 10px;
+    width: 100%;
+}
+
+.tableRow {
+    display: table-row;
+}
+
+.main {
+    display: table-cell;
+}
+.ice {
+    clear: left;
+    max-width: 1080px;
+    min-width: 640px;
+    padding-top: 10px;
+    margin: 10px auto;
+}
+
+.test {
+    font-family: monospace;
+    font-size: xx-large;
+}
+.error {
+    background-color: #D00;
+    color: #FFF;
+    font-weight: bold;
+}

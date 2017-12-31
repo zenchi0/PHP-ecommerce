@@ -1,0 +1,25 @@
+table {
+    margin: 0px auto;
+    border: thin solid black;
+    caption-side: top;
+    border-collapse: collapse;
+}
+th {
+    background-color: #008bcd;
+    color: #cda900;
+}
+tr:nth-child(odd) {
+    background-color: #c0c0c0;
+}
+caption {
+    font-style: italic;
+}
+td, th {
+    padding: 5px;
+    border: thin solid #5538B4;
+    text-align: center;
+}
+td ul li {
+    text-align: left;
+}
+

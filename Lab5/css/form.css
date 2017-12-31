@@ -1,0 +1,34 @@
+form {
+  display: table;
+}
+form.tableForm {
+    margin: auto;
+}
+form.tableForm label {
+    text-align: center;
+    padding: 0 1px 0 0;
+}
+form.tableForm input[type="number"] {
+    width: 35px;
+    margin-right: 5px;
+}
+form p {
+  display: table-row;
+}
+form div.componentContainer {
+  display: table-cell;
+}
+form p label,input,select,textarea {
+    display: table-cell;
+}
+form p label {
+  /*text-align: right;*/
+  padding-top: 5px;
+  padding-right: 10px;
+}
+form p input {
+    margin-top: 5px;
+}
+input[type="number"] {
+    width: 50px;
+}
